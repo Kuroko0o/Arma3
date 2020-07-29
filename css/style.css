@@ -12,9 +12,9 @@
 
 @font-face {
     font-family: "Traveling _Typewriter";
-    src: url("/fonts/traveling_typewriter/TravelingTypewriter.eot")
-        url('/fonts/traveling_typewriter/TravelingTypewriter.otf') format("opentype")
-        url('/fonts/traveling_typewriter/TravelingTypewriter.ttf') format("truetype");
+    src: url("TravelingTypewriter.eot");
+    src: url('TravelingTypewriter.otf') format("opentype");
+    src: url('TravelingTypewriter.ttf') format("truetype");
 }
 
 h1,h3,p{
