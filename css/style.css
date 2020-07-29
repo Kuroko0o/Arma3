@@ -13,8 +13,9 @@
 @font-face {
     font-family: "Traveling _Typewriter";
     src: url("TravelingTypewriter.eot");
-    src: url('TravelingTypewriter.otf') format("opentype");
     src: url('TravelingTypewriter.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1,h3,p{
