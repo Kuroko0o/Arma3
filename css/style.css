@@ -12,27 +12,23 @@
 
 @font-face {
     font-family: "Traveling _Typewriter";
-    src: url("TravelingTypewriter.eot");
-    src: url('TravelingTypewriter.ttf') format("truetype");
+    src: url("../css/fonts/traveling_typewriter/TravelingTypewriter.eot");
+    src: url("../css/fonts/traveling_typewriter/TravelingTypewriter.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'momstypewriterregular';
-    src: url('Moms_typewriter-webfont.eot');
-    src: url('Moms_typewriter-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Moms_typewriter-webfont.woff2') format('woff2'),
-         url('Moms_typewriter-webfont.woff') format('woff'),
-         url('Moms_typewriter-webfont.ttf') format('truetype'),
-         url('Moms_typewriter-webfont.svg#momstypewriterregular') format('svg');
+    font-family: 'typewriter-oldstyle';
+    src: url('../css/fonts/typewriter-oldstyle.eot');
+    src: url('../css/fonts/typewriter-oldstyle.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
 }
 
 h1,h3,p{
-    font-family: "momstypewriterregular";
+    font-family: "Traveling _Typewriter";
 }
  h1,h3{
      text-align: center;
