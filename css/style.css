@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'HammerKeys';       
     src: local('HammerKeys'),
-        url(/fonts/hammer_keys/HAMMK___.TTF) format("truetype");    
+        url('/fonts/hammer_keys/HAMMK___.TTF') format("truetype");    
 }
 
 @font-face {
     font-family: "1942 report";
     src: local("1942 report")
-        url(/fonts/1942_report/1942.ttf) format("truetype");    
+        url('/fonts/1942_report/1942.ttf') format("truetype");    
   }
 
 @font-face {
     font-family: "Traveling _Typewriter";
-    src: local("Traveling _Typewriter")
-        url(/fonts/traveling_typewriter/TravelingTypewriter.otf) format("opentype")
-        url(/fonts/traveling_typewriter/TravelingTypewriter.ttf) format("truetype");
+    src: url("/fonts/traveling_typewriter/TravelingTypewriter.eot")
+        url('/fonts/traveling_typewriter/TravelingTypewriter.otf') format("opentype")
+        url('/fonts/traveling_typewriter/TravelingTypewriter.ttf') format("truetype");
 }
 
 h1,h3,p{
