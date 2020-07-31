@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+html, body {
+    height: 100%;
+  }
+
+@font-face {
+    font-family: "Traveling _Typewriter";
+    src: url("../css/fonts/traveling_typewriter/TravelingTypewriter.eot");
+    src: url("../css/fonts/traveling_typewriter/TravelingTypewriter.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, p{
+    font-family: "Traveling _Typewriter"
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p{
+    border: black 2px solid;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.normas{
+    text-decoration: none;
+}
