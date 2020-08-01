@@ -15,8 +15,18 @@ html, body {
     font-style: normal;
 }
 
-h1, p{
+body{
+    background-color: darkgray;
     font-family: "Traveling _Typewriter"
+}
+
+img{
+    background-color: transparent;
+    background-size: 100% 50%;
+    width: 40%;
+    display: block;
+    margin-left: 31%;
+    border-radius: 8%;
 }
 
 h1{
@@ -24,11 +34,13 @@ h1{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+    line-height: 30px;
 }
 
 p{
     margin: 30px;
-    margin-left: 10%;
+    margin-left: 15%;
+    margin-right: 10%;
     border: black 2px solid;
     text-align: left;
     padding: 20px;
@@ -44,6 +56,7 @@ p{
 
 .contenido{
     overflow: initial;
+    line-height: 30px;
 }
 .lateral{
     float: left;
@@ -52,6 +65,59 @@ p{
     margin-right: 50px;
     position: relative;
     z-index: 1;
-    width: 15%;
-
+    width: 28%;
 }
+
+nav{
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: static;
+    z-index: 10;
+    float: left;
+    margin-bottom: 40px;
+ }
+ #navegador ul{
+     list-style-type: none;
+     text-align: center;
+     font-family: "Traveling _Typewriter";
+}
+
+nav ul li{
+    font-size: 16px;
+}
+
+#navegador, ul li a {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+ #navegador li{
+     display: inline;
+     text-align: center;
+     margin: 0 5px 0 0;
+ }
+
+ #navegador li a {
+    padding: 3px 7px 3px 7px;
+    color: white;
+    background-color: #8a8585;
+    border: 1px solid white;
+    text-decoration: none;
+ }
+ 
+ #navegador li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }
+
+ .wrapper {
+    min-height: calc(100% -4rem);
+    padding: 20px;
+  }
+
+ .footer {
+    margin: 25px;
+    height: 4rem;
+    background-color: #e2e2e2;
+    font-family: "Traveling _Typewriter";
+  }
