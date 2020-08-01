@@ -76,7 +76,7 @@ nav ul li{
 h1{
     font-size: 30px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-top: 20px;
     line-height: 30px;
 }
@@ -85,7 +85,35 @@ p{
     line-height: 30px;
 }
 
+.rangos{
+    display: block;
+    
+    border: 0;
+}
 
+table{
+    border: 2px solid;
+    border-color: black;
+    border-collapse: separate;
+    border-spacing: 3px;
+    text-align: center;
+}
+
+th,td{
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+div.centraTabla{
+    text-align: center;
+}
+    
+div.centraTabla table {
+    margin: 0 auto;
+    text-align: left;
+}
 
 
 
@@ -100,6 +128,7 @@ p{
 
  .footer {
     margin: 25px;
+    margin-top: 25px;
     height: 4rem;
     background-color: #e2e2e2;
   }
