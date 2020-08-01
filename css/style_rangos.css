@@ -22,50 +22,11 @@ body{
 
 img{
     background-color: transparent;
-    background-size: 100% 50%;
-    width: 40%;
+    width: 50%;
     display: block;
-    margin-left: 31%;
-    border-radius: 8%;
-}
-
-h1{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    line-height: 30px;
-}
-
-p{
-    margin: 30px;
-    margin-left: 15%;
-    margin-right: 10%;
-    border: black 2px solid;
-    text-align: left;
-    padding: 20px;
-    box-shadow: 3px 3px 3px black;
-    margin-bottom: 20px;
-    width: fit-content;
-
-}
-
-.normas{
-    text-decoration: none;
-}
-
-.contenido{
-    overflow: initial;
-    line-height: 30px;
-}
-.lateral{
-    float: left;
-    vertical-align: middle;
-    margin: 5px;
-    margin-right: 50px;
     position: relative;
-    z-index: 1;
-    width: 28%;
+    margin-left: 25%;
+    align-content: center;
 }
 
 nav{
@@ -75,7 +36,8 @@ nav{
     z-index: 10;
     float: left;
     margin-bottom: 40px;
- }
+}
+
  #navegador ul{
      list-style-type: none;
      text-align: center;
@@ -91,26 +53,47 @@ nav ul li{
     padding: 20px;
     text-decoration: none;
 }
- #navegador li{
+
+#navegador li{
      display: inline;
      text-align: center;
      margin: 0 5px 0 0;
- }
+}
 
- #navegador li a {
+#navegador li a {
     padding: 3px 7px 3px 7px;
     color: white;
     background-color: #8a8585;
     border: 1px solid white;
     text-decoration: none;
- }
+}
  
- #navegador li a:hover{
+#navegador li a:hover{
     background-color: #333333;
     color: #ffffff;
- }
+}
 
- .wrapper {
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+p{
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+  .wrapper {
     min-height: calc(100% -4rem);
     padding: 20px;
   }
