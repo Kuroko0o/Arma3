@@ -71,6 +71,7 @@ html, body {
 
  .subraya {
      text-decoration-line: underline;
+     font-weight: bold;
  }
 
  .figura{
@@ -80,12 +81,18 @@ html, body {
      border: black 1px solid;
      box-shadow: 2px 2px 2px black;
      padding: 1px;
+     transition: transform .2s;
  }
 
  .relleno{
      margin-left: 28%;     
-     margin-bottom: 20px;
+     margin-bottom: 20px;     
  }
+
+ .figura:hover{
+     transform: scale(1.5);
+ }
+
 
  nav{
     background: rgba(0,0,0,0.9);
