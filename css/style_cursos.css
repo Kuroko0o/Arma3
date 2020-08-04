@@ -22,10 +22,10 @@ body{
 
 img{
     background-color: transparent;
-    width: 50%;
+    width: 30%;
     display: block;
     position: relative;
-    margin-left: 25%;
+    margin-left: 34%;
     align-content: center;
 }
 
@@ -36,8 +36,7 @@ nav{
     z-index: 10;
     float: left;
     margin-bottom: 40px;
-}
-
+ }
  #navegador ul{
      list-style-type: none;
      text-align: center;
@@ -68,27 +67,9 @@ nav ul li{
     text-decoration: none;
 }
  
-#navegador li a:hover{
+ #navegador li a:hover{
     background-color: #333333;
     color: #ffffff;
-}
-
-h1{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    line-height: 30px;
-}
-
-p{
-    line-height: 30px;
-}
-
-.rangos{
-    display: block;
-    padding: 2px;    
-    border: 0;
 }
 
 table{
@@ -97,6 +78,15 @@ table{
     border-collapse: separate;
     border-spacing: 3px;
     text-align: center;
+    width: 50%;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    line-height: 30px;
 }
 
 th,td{
@@ -115,28 +105,16 @@ div.centraTabla table {
     text-align: left;
 }
 
-.nota{
-    margin-top: 50px;
-    padding: 5px;
-    border: black solid 2px;
-    text-align: left;
-    box-shadow: 2px 2px 2px black;
-    border-radius: 5%;
-}
 
 
 
-
-
-
-  .wrapper {
+.wrapper {
     min-height: calc(100% -4rem);
-    padding: 20px;
+    padding: 2px;
   }
 
  .footer {
     margin: 25px;
-    margin-top: 25px;
     height: 4rem;
     background-color: #e2e2e2;
   }
