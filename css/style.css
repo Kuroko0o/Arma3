@@ -5,19 +5,8 @@
 
 html, body {
     height: 100%;
-  }
-
-@font-face {
-    font-family: 'HammerKeys';       
-    src: url('../css/fonts/hammer_keys/HAMMK___.eot');
-    src: url('../css/fonts/hammer_keys/HAMMK___.TTF') format("truetype");    
+    width: 100%;
 }
-
-@font-face {
-    font-family: "1942 report";
-    src: url("../css/fonts/1942_report/1942.eot");
-    src: url("../css/fonts/1942_report/1942.ttf") format("truetype");    
-  }
 
 @font-face {
     font-family: "Traveling _Typewriter";
@@ -27,19 +16,10 @@ html, body {
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'typewriter-oldstyle';
-    src: url('../css/fonts/typewriter-oldstyle.eot');
-    src: url('../css/fonts/typewriter-oldstyle.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
  h1{
      text-align: center;
      font-size: 30px;
+     margin-top: 50px;
  }
 
  p{
@@ -48,6 +28,7 @@ html, body {
      padding: 10px;
      box-shadow: 3px 3px 3px black;
      margin-bottom: 20px;
+
  }
 
  .sobre{
@@ -63,11 +44,14 @@ html, body {
  .intro,.subintro{
      margin-left: 25%;
      width: 50%;
+     background: rgba(0,0,0,0.2);
  }
 
  .sobre, .subintro{
      line-height: 30px;
+     background: rgba(0,0,0,0.2);
  }
+
 
  .subraya {
      text-decoration-line: underline;
@@ -163,6 +147,35 @@ nav ul li{
   }
 
   body{
-      background-color: darkgray;
+      color: whitesmoke;
+      background-color: #D5D8DC;
       font-family: "Traveling _Typewriter";
+  }
+
+  .fondillo{
+    background-image: url(../image/body.jpg);
+    background-repeat: no-repeat;
+    align-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    margin-top: 30px;
+    display: block;
+  }
+
+  .portada{
+    background-image: url(../image/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    margin-top: 30px;
+    display: block;
   }
