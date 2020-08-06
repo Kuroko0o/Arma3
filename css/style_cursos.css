@@ -5,6 +5,8 @@
 
 html, body {
     height: 100%;
+    width: 98.8%;
+}
   }
 
 @font-face {
@@ -32,7 +34,7 @@ img{
 nav{
     background: rgba(0,0,0,0.9);
     width: 100%;
-    position: static;
+    position: relative;
     z-index: 10;
     float: left;
     margin-bottom: 40px;
@@ -48,7 +50,6 @@ nav ul li{
 }
 
 #navegador, ul li a {
-    display: inline;
     padding: 20px;
     text-decoration: none;
 }
