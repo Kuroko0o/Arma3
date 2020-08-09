@@ -17,6 +17,7 @@ html, body {
 }
 
  h1{
+     color: whitesmoke;
      text-align: center;
      font-size: 30px;
      margin-top: 50px;
@@ -34,17 +35,19 @@ html, body {
  .sobre{
      margin-left: 25%;
      text-align: center;
-     width: 50%;   
+     width: 50%;      
  }
+
+
 
  .sobre a{
      text-decoration: none;
  }
 
  .intro,.subintro{
-     margin-left: 25%;
-     width: 50%;
-     background: rgba(0,0,0,0.2);
+    margin-left: 25%;
+    width: 50%;
+    background: rgba(0,0,0,0.2);
  }
 
  .sobre, .subintro{
@@ -55,7 +58,7 @@ html, body {
 
  .subraya {
      text-decoration-line: underline;
-     font-weight: bold;
+     font-weight: bold;     
  }
 
  .figura{
@@ -150,7 +153,7 @@ nav ul li{
 }
 
 body{
-    color: whitesmoke;
+    color: black;
     background-color: #D5D8DC;
     font-family: "Traveling _Typewriter";
 }
@@ -170,7 +173,7 @@ body{
 }
 
 .portada{
-    background-image: url(../image/fondo.jpg);
+    background-image: url(../image/fondo.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;      
     -webkit-background-size: cover;
@@ -182,3 +185,9 @@ body{
     margin-top: 30px;
     display: block;
 }
+
+.sobre, .intro, .subintro{
+    opacity: 0.8;
+    filter: contrast(5);
+    background-color:grey;    
+ }
